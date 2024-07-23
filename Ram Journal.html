@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram's Journal</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans Unicode';
+    background-image: url('kovai_jpg.jpg'); /* Add the background image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Keep the image fixed during scroll */
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Add some transparency */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    background-color: #8ed1fc;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 0;
+    font-style: italic;
+    color: #666;
+}
+
+.sidebar {
+    background-color: #d4f1f4;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+}
+
+.sidebar ol {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.content {
+    width: 100%;
+}
+
+.post {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.post h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.8em;
+}
+
+.post p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.footer {
+    background-color: #8ed1fc;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Ram's Journal</h1>
+            <p>For adventures like me, this journal is to "Discover the Best of Coimbatore"</p>
+        </header>
+        <aside class="sidebar">
+            <h2>Top 3 things to explore in Coimbatore </h2>
+            <ul class="a">
+                <li>Isha Yoga</li>
+                <li>Black Thunder</li>
+                <li>Anaikatti Hills</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <article class="post">
+                <h3>Isha Yoga Centre</h3>
+                <p>I recently visited the Isha Yoga Center, an ashram founded by Sadhguru. Nestled at the foothills of the Velliangiri Mountains, it offers a tranquil environment perfect for spiritual growth and self-discovery. The center is home to the Dhyanalinga, a unique meditative space, and the 112-foot tall Adiyogi Shiva statue, which stands as a symbol of inner transformation. Participating in the various yoga programs and spending time in the serene surroundings was a rejuvenating experience for the mind and soul.
+
+                </p>
+                <img src="isha_yoga.jpg" alt="Isha Yoga Centre">
+            </article>
+            <article class="post">
+                <h3>Black Thunder</h3>
+                <p>If you're in the mood for some fun and adventure, Black Thunder is the place to be! This sprawling water theme park, located at the foothills of the Nilgiris, offers a plethora of thrilling rides and attractions. From wave pools and lazy rivers to high-speed water slides and roller coasters, there's something for everyone. The lush green surroundings and the exhilarating rides make Black Thunder a perfect spot for a day out with family and friends. The joy and laughter shared while splashing around in the water make for unforgettable memories.</p>
+                <img src="Black_Thunder.jpg" alt="Black Thunder">
+            </article>
+            <article class="post">
+                <h3>Anaikatti Hills</h3>
+                <p>For nature lovers and adventure seekers, the Anaikatti Hills are a must-visit destination. Located on the border of Tamil Nadu and Kerala, these hills offer stunning views and a serene atmosphere. The area is rich in wildlife, including elephants, deer, and various bird species, making it a great spot for wildlife enthusiasts. Hiking through the lush forests and enjoying the fresh mountain air is a refreshing escape from the city's hustle and bustle. The picturesque landscapes and tranquil environment make Anaikatti Hills a perfect place for a weekend getaway.</p>
+                <img src="anaikatti_hills.jpg" alt="Anaikatti Hills">
+            </article>
+        </main>
+        <footer class="footer">
+            <p>© 2024 Coimbatore Journal</p>
+            <p>By, Ram Darshan C N</p>
+        </footer>
+    </div>
+</body>
+</html>
